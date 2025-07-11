@@ -1,4 +1,4 @@
-import { Button } from "@/components/Button";
+import Button from "@/components/Button";
 import { authOptions } from "@/lib/auth";
 import { getServerSession } from "next-auth";
 

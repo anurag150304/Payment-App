@@ -4,7 +4,7 @@ import { ChangeEvent, useState } from "react";
 import Link from "next/link";
 import axios from "axios";
 import { useRouter } from "next/navigation";
-import { Button } from "@/components/Button";
+import Button from "@/components/Button";
 
 export default function Signup() {
     const [data, setData] = useState<Omit<UserType, "id">>({ fullname: { firstname: "", lastname: "" }, email: "", password: "" });

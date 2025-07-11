@@ -1,4 +1,4 @@
-import { Button } from "@/components/Button";
+import Button from "@/components/Button";
 import { getServerSession } from "next-auth";
 import { GoSignIn } from "react-icons/go";
 import { GoSignOut } from "react-icons/go";

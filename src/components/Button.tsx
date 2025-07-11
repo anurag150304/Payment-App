@@ -3,7 +3,7 @@ import { ButtonType } from "@/types/types.";
 import { signOut } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
-export const Button = (props: Partial<ButtonType>) => {
+export default function Button(props: Partial<ButtonType>) {
     const router = useRouter();
     const performTask = () => {
         if (props.task === "signout") {

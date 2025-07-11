@@ -1,5 +1,5 @@
 import { getAccount, getAllAccounts } from "@/actions/accouts/actions";
-import { Button } from "@/components/Button";
+import Button from "@/components/Button";
 import { authOptions } from "@/lib/auth"
 import { getServerSession } from "next-auth"
 import { SlUser } from "react-icons/sl";
